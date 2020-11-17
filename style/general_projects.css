@@ -1,0 +1,267 @@
+/*!* Header Style Start *!*/
+/*#header_wrapper {*/
+/*    background: linear-gradient(90deg, rgba(58, 76, 180, 1) 0%, rgba(253, 29, 29, 1) 100%);*/
+/*}*/
+
+/*#header_wrapper nav {*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    margin: 0 50px 0 50px;*/
+/*}*/
+
+/*.left_top_menu a {*/
+/*    font-size: 18px;*/
+/*    color: #fff;*/
+/*}*/
+
+/*.left_top_menu {*/
+/*    display: flex;*/
+/*}*/
+
+
+/*.right_top_menu_current_title {*/
+/*    font-size: 18px;*/
+/*    color: #fff;*/
+/*}*/
+
+/*!* Header Style End *!*/
+
+
+/* Header Style Start */
+body {
+    /*padding: 0;*/
+    margin: 0;
+}
+
+#header_wrapper {
+    width: 100%;
+    height: auto;
+    /*border: 1px solid black;*/
+}
+
+/* Top Menu Style Start*/
+#nav_bar_top_menu {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(90deg, rgba(58, 76, 180, 1) 0%, rgba(253, 29, 29, 1) 100%);
+
+}
+
+.left_top_menu {
+    display: flex;
+    margin: 0 50px 0 20px;
+
+}
+
+.left_top_menu ul li {
+    list-style-type: none;
+}
+
+.menu_link {
+    max-width: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.right_top_menu_current_title {
+    font-size: 16px;
+    color: #fff;
+}
+
+.right_top_menu {
+    /*margin-top: 15px;*/
+    color: #fff;
+    margin: 15px 60px 0 0;
+}
+
+.right_top_menu_current_title {
+    background: rgba(255, 255, 255, .15);
+    border-radius: 35%;
+    line-height: 20px;
+    padding: 7px 10px;
+}
+
+/* Top Menu Style End*/
+
+
+/* Top Menu Item Style Start*/
+#nav_bar_search_wrapper_header {
+    display: flex;
+    margin: 20px 50px 0 50px;
+    /*border: solid 1px black;*/
+}
+
+#nav_bar_search_wrapper_header ul li {
+    list-style-type: none;
+}
+
+.img_logo img {
+    max-height: 45px;
+
+}
+
+.img_logo a {
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+}
+
+.nav_bar_item_menu ul {
+    padding: 0;
+}
+
+.nav_bar_item_menu a {
+    max-width: 16px;
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.img_logo {
+    flex: 1;
+    /*-webkit-user-modify: read-write-plaintext-only;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+}
+
+.nav_bar_item_menu {
+    flex: 5;
+    display: flex;
+}
+
+.social_item_menu {
+    display: flex;
+}
+
+.social_item_menu a {
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.05);
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+.social_item_menu img {
+    max-height: 24px;
+    margin-top: 5px;
+}
+
+/* Top Menu Item Style End*/
+
+
+/* Img Header Style Start  */
+
+
+/* Img Header Style End  */
+#header_img {
+    /*border: 1px solid black;*/
+    width: 100%;
+    height: 150px;
+    position: relative;
+    margin-top: 20px;
+}
+
+#header_img img {
+    width: 100%;
+    height: 200px;
+    background-position: 50%;
+}
+
+.header_img_text h3 {
+    font-size: 35px;
+    margin: 0px 0px 0px 0px;
+    color: #fff;
+    float: left;
+    width: 100%;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+
+.header_img_text p {
+    font-size: 24px;
+    margin: 0px 0px 0px 0px;
+    color: #fff;
+    float: left;
+    width: 100%;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: Lato;
+    font-weight: 400
+}
+
+.header_img_photo {
+    position: relative;
+}
+
+.header_img_text {
+    position: absolute;
+    left: 0;
+    bottom: 50%;
+    width: 100%;
+}
+
+/* Header Style End */
+
+/*//////////////////////////////////////////////////////////////////////*/
+
+/* Section  Style Start */
+
+#section {
+    padding: 10px;
+    /*border: 1px solid black;*/
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+
+.section_slider {
+    /*border: 1px solid black;*/
+    flex: 1.7;
+}
+
+.section_sidebar {
+    /*border: 1px solid black;*/
+    flex: 1;
+
+}
+
+.section_figure {
+    /*border: 1px solid black;*/
+    display: flex;
+    /*flex-direction: row;*/
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.figure_img {
+    width: 300px;
+    height: 238px;
+    border-radius: 7%;
+}
+
+.section_figure figure  figcaption {
+    width: 280px;
+    color: #000;
+    font-size: 22px;
+    font-weight: bold;
+}
+.section_figure a, .post_date {
+    text-decoration: none;
+    color: #818181;
+}
+
+
+.post_meta .user_img img {
+    width: 30px;
+    height: 30px;
+}
+.post_meta .post_date img {
+    width: 30px;
+    height: 30px;
+}
+
+
+/* Section  Style End */
+
