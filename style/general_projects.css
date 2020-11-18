@@ -534,3 +534,149 @@ body {
 
 /* Section  Style End */
 
+
+
+
+
+
+
+
+
+/* Footer  Style Start */
+#footer_container {
+    border: 1px solid black;
+    background-color: black;
+}
+/*Footer Columns Style Start*/
+
+.footer_text {
+    color: #fff;
+}
+
+.footer_text_about {
+    color: #818181;
+    font-family: Lato;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+
+.about_1_img {
+    margin-top: 42px
+}
+.about_1_img img {
+    width: 44px;
+    height: 44px;
+}
+
+.footer_columns {
+    border: 1px solid black;
+    height: auto;
+    margin: 20px 50px 0 50px;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col_1 {
+    border: 1px solid black;
+    height: 394px;
+    width: 372px;
+}
+
+.categories_info_1 {
+    width: 100%;
+    font-size: 12px;
+    padding-bottom: 4px;
+    margin: 0px 0px 25px 0px;
+    border-bottom: 1px solid #E2E3E7;
+    font-family: system-ui;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.categories_info_1_number {
+    border: solid 1px black;
+    border-radius: 50%;
+    min-width: 20px;
+    height: 20px;
+    line-height: 21px;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 0;
+}
+
+/*.categories_1 h3 {*/
+/*    color: #fff;*/
+/*}*/
+
+.act_num {
+    background-color: red;
+}
+
+.categories_info_1_text {
+    color: #fff;
+}
+
+.bus_num {
+    background-color: chocolate;
+}
+.cra_num {
+    background-color: dodgerblue;
+}
+.game_num {
+    background-color: yellow;
+}
+.hea_num {
+    background-color: green;
+}
+.aci_num {
+    background-color: salmon;
+}
+
+/*Footer Columns Style End*/
+
+.hr {
+    border-bottom: 1px solid #E2E3E7;
+}
+
+/*Footer Copyright Style Start*/
+
+.footer_copyright {
+    border: 1px solid black;
+    height: auto;
+    margin: 20px 50px 0 50px;
+}
+
+.foo_copy {
+    display: flex;
+    justify-content: space-between;
+}
+.foo_copy_text {
+    margin-top: 10px;
+}
+
+.footer_text_about {
+    display: flex;
+    padding: 10px;
+}
+
+.foo_copy_menu ul li {
+    list-style-type: none;
+}
+.footer_text_about a {
+    text-decoration: none;
+    color: #818181;
+    padding: 10px;
+}
+
+/*Footer Copyright Style End*/
+
+
+/* Section  Style End */
+
