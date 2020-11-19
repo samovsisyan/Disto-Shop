@@ -1,0 +1,255 @@
+/*Section Style Start*/
+#section_shop {
+    display: flex;
+    /*border: 1px solid black;*/
+    margin: 0 50px 0px 57px;
+    width: 91%;
+    height: auto;
+    padding-bottom: 48px;
+}
+/*Shop Products Style Start*/
+.shop_products {
+    /*border: 1px solid black;*/
+    flex: 3;
+}
+.shop_sidebar {
+    /*border: 1px solid black;*/
+    flex: 1.5;
+}
+/*Shop Select Style Start*/
+.shop_select {
+    /*border: 1px solid black;*/
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.shop_showing_results {
+    /*border: 1px solid black;*/
+}
+.shop_sel_opt {
+    /*border: 1px solid black;*/
+}
+#shop_sorting {
+    height: 38px;
+    border: 1px solid #dadada;
+    color: #333333;
+    padding: 8px 21px;
+    background: none;
+}
+
+/*Shop Select Style End*/
+
+
+/*Shop Products Type Style Start*/
+
+.shop_products_type {
+    /*border: 1px solid black;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.type_product_img img{
+    width: 225px;
+    height: 270px;
+}
+.type_product {
+    /*border: 1px solid black;*/
+    width: 30%;
+    margin-top: 20px;
+}
+.str_prod{
+    margin-top: 42px;
+}
+.button_add_to_cart{
+    width: 100%;
+    border: 1px solid #e6e6e6;
+    color: #fff;
+    padding: 9px;
+    border-radius: 10%;
+    margin-top: 15px;
+}
+.type_product_info_title span:nth-child(1){
+    color: #818181;
+}
+.type_product_info_title span:nth-child(2) {
+    color: black;
+}
+.type_product_info{
+    display: flex;
+    justify-content: space-between;
+}
+.button_add_to_cart:hover {
+    background-color: black;
+}
+
+/*Shop Products Type Style End*/
+
+/*Shop Pagination Type Style Start*/
+.shop_pagination {
+    /*border: 1px solid black;*/
+}
+.pagination {
+    /*border: 1px solid black;*/
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.num_page{
+    /*border: 1px solid black;*/
+    border-radius: 50%;
+    background-color: black;
+    text-align: center;
+    color: #FFF;
+    font-size: 13px;
+    margin-right: 5px;
+    padding: 0px 13px;
+    display: inline-block;
+    height: 36px;
+    line-height: 37px;
+    width: 15px;
+}
+.pages span:after {
+    content: ' \2192';
+    font-size: 17px;
+}
+/*Shop Pagination Type Style End*/
+/*Shop Products Style End*/
+
+
+/*Shop Sidebar Style Start*/
+.shop_sidebar{
+    /*border: 1px solid red;*/
+    padding: 0px 0px 0px 24px;
+}
+
+/*Shop Sidebar Products Style Start*/
+.sidebar_products {
+    /*border: 1px solid black;*/
+}
+.sidebar_products_title h3 {
+    color: #000;
+    display: block;
+    font-size: 20px;
+    line-height: 1.2;
+    padding-bottom: 20px;
+    /* margin: 0px 0px 25px 0px; */
+    border-bottom: 1px solid #E2E3E7;
+}
+.sidebar_products_title a {
+    text-decoration: none;
+    font-size: larger;
+    color: black;
+}
+.sidebar_products_type {
+    /*border: 1px solid black;*/
+    display: flex;
+}
+.products_type_img {
+    /*border: 1px solid black;*/
+}
+.products_type_img img {
+    width: 90px;
+    height: 90px;
+    border-radius: 10%;
+}
+.products_type_disc {
+    padding: 7px 0 0 14px;
+    line-height: 24px;
+}
+/*Shop Sidebar Products Style End*/
+
+/*Shop Sidebar Average Rating Style Start*/
+.sidebar_average_rating_title h3 {
+    color: #000;
+    display: block;
+    font-size: 20px;
+    line-height: 1.2;
+    padding-bottom: 20px;
+    /* margin: 0px 0px 25px 0px; */
+    border-bottom: 1px solid #E2E3E7;
+}
+.star-sty {
+    line-height: 24px;
+}
+.star-sty span {
+    padding-left: 12px;
+}
+/*Shop Sidebar Average Rating Style End*/
+
+
+/*Shop Sidebar Product Categories Style Start*/
+.sidebar_product_categories_title h3{
+    color: #000;
+    display: block;
+    font-size: 20px;
+    line-height: 1.2;
+    padding-bottom: 20px;
+    /* margin: 0px 0px 25px 0px; */
+    border-bottom: 1px solid #E2E3E7;
+}
+.sidebar_product_categories_subtitle {
+    color: #000;
+    display: block;
+    font-size: 14px;
+    line-height: 2.5;
+    border-bottom: 1px solid #E2E3E7;
+}
+/*Shop Sidebar Product Categories Style End*/
+/*Shop Sidebar Style End*/
+
+
+.star-rating {
+    display: flex;
+    position: relative;
+    /*line-height: 1;*/
+}
+.star-rating:before,
+.star-rating:after {
+    content: "\f005\f005\f005\f005\f005";
+    display: block;
+    font-family: "FontAwesome";
+    font-size: 13px;
+    color: #ccc;
+}
+.star-rating:after {
+    color: gold;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.star-rating.s0:after {
+    width: 0%;
+}
+.star-rating.s1:after {
+    width: 10%;
+}
+.star-rating.s2:after {
+    width: 20%;
+}
+.star-rating.s3:after {
+    width: 30%;
+}
+.star-rating.s4:after {
+    width: 40%;
+}
+.star-rating.s5:after {
+    width: 50%;
+}
+.star-rating.s6:after {
+    width: 60%;
+}
+.star-rating.s7:after {
+    width: 70%;
+}
+.star-rating.s8:after {
+    width: 80%;
+}
+.star-rating.s9:after {
+    width: 90%;
+}
+.star-rating.s10:after {
+    width: 100%;
+}
+/*Section Style End*/
